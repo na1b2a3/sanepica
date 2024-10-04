@@ -1,0 +1,176 @@
+/* Reseta o estilo padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #00529B; /* Azul semelhante ao da imagem */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #003F7F; /* Azul escuro */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* Seções principais */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Transparência - box estilo */
+.box-fale-conosco {
+    background-color: #0072B1;
+    color: white;
+}
+
+.box-fale-conosco a {
+    color: white;
+    font-weight: bold;
+}
+
+.box-fale-conosco h2 {
+    font-size: 1.5rem;
+}
+
+/* Notificações */
+.lista-servicos h3 {
+    font-size: 1.3rem;
+    color: #00529B;
+}
+
+.lista-servicos p {
+    font-size: 1rem;
+}
+
+/* Formulário de contato */
+.login-sidebar form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-sidebar input,
+.login-sidebar textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-sidebar input[type="submit"] {
+    background-color: #00529B;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-sidebar input[type="submit"]:hover {
+    background-color: #003F7F;
+}
+
+/* Educação */
+.encontre-endereco {
+    background-color: #E7F0F9;
+    padding: 20px;
+    border-left: 4px solid #0072B1;
+}
+
+.inner-endereco h4 {
+    color: #00529B;
+    font-size: 1.3rem;
+}
+
+/* Rodapé */
+footer {
+    background-color: #003F7F;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+}
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .imagefield-field_imagem_banner_topo:hover{
+    cursor: pointer;
+  }
+  .botoesinicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    gap: 15px;
+    width: 315px;
+    height: 560px;
+  }
+  .imagemmenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .container{
+    display: flex;
+    gap: 20px;
+  }
+  
+
+
